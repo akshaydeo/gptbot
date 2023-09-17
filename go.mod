@@ -1,6 +1,6 @@
 module github.com/akshaydeo/gptbot
 
-go 1.19
+go 1.21
 
 require (
 	github.com/RussellLuo/kun v0.4.5

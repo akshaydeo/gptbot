@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-aie/gptbot"
+	"github.com/akshaydeo/gptbot"
 	"github.com/google/go-cmp/cmp"
 )
 
