@@ -1,4 +1,4 @@
-module github.com/go-aie/gptbot
+module github.com/akshaydeo/gptbot
 
 go 1.19
 
