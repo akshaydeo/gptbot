@@ -93,8 +93,8 @@ func (vs *LocalVectorStore) Query(ctx context.Context, embedding Embedding, corp
 	}
 
 	// Sort similarities by score in descending order.
-	slices.SortStableFunc(similarities, func(a, b *Similarity) bool {
-		return a.Score > b.Score
+	slices.SortStableFunc(similarities, func(a, b *Similarity) int {
+		return int(a.Score - b.Score)
 	})
 
 	if len(similarities) <= topK {
